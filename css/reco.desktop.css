@@ -1,0 +1,20 @@
+
+.recom__container {
+	text-align: center;
+}
+
+.recom__header{
+	font-family: 'brandon_bold', Helvetica, Arial, sans-serif;
+	text-align: center;
+	font-size: 18px!important;
+	border-bottom: 2px solid #111;
+	display: inline-block;
+	    line-height: initial;
+    font-weight: normal !important;
+}
+
+.recom__item {
+	min-height: auto !important;
+	padding: 0px !important;
+	background: #fff !important;
+}

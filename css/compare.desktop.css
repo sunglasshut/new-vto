@@ -1,0 +1,230 @@
+
+#compare #product-container,
+#compare_results {
+	display: inline-block !important;
+	width: 49% !important;
+	vertical-align: top !important;
+	box-sizing: border-box !important;
+}
+
+
+#compare_results {
+	display: inline-block;
+}
+
+.vto-on-model__container {
+	position: relative;
+}
+
+#compare #product-container .item {
+    width: 100% !important;
+    padding: 15px 1vw 0px 4vw !important;
+    margin: 0 !important;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+#compare #product-container  .item.selected {
+	padding-bottom: 45px !important;
+}
+
+
+.compare_image {
+	float: left;
+}
+
+.compare_image,
+.item p {
+    display: inline-block;
+    width: 49%;
+    box-sizing: border-box;
+}
+
+.compare_image {
+    width: 59%;
+}
+
+.item p {
+    width: 39%;
+}
+
+#compare .item .info,
+#compare h2 {
+	display: none;
+}
+
+.item .content {
+	height: inherit !important;
+	position: relative;
+	cursor: pointer;
+}
+
+#compare .item {
+	min-height: inherit !important;
+	border-bottom: #ebebeb 1px solid;
+}
+
+#compare .item:last-child {
+	border-bottom: none;
+}
+
+#compare .item .compare_image img {
+	max-width: inherit !important;
+	width: 100% !important;
+	float: left;
+	 position: relative;
+    top: -15px;
+}
+
+.item.selected {
+    background-color: #F3F2F2;
+}
+
+#compare_results #sgh-vto-overlay_model {
+	position: relative;
+}
+
+#compare_results #sgh-vto-overlay-video-buttons a#vto-open-edit {
+    left: inherit;
+    float: right;
+    margin-left: 0px;
+    position: relative;
+    padding: 0px 0px 10px;
+}
+
+#compare a.remove {
+    position: absolute;
+    cursor: pointer;
+    text-align: center;
+    top: 50%;
+    left: 5px;
+    color: #999 !important;
+    text-transform: capitalize !important;
+    z-index: 2;
+    -webkit-transform: translateY(-50%); 
+	-moz-transform: translateY(-50%); 
+	-ms-transform: translateY(-50%);  
+	transform: translateY(-50%);  
+	-webkit-transform-style: preserve-3d; 
+	-moz-transform-style: preserve-3d; 
+	transform-style: preserve-3d;
+}
+
+#compare a.remove:before {
+	content: '\2715';
+	display: block;
+	vertical-align: middle;
+	color: #999 !important;
+}
+
+
+#compare  .add_to_cart {
+    display: none;
+}
+
+#compare .item .addToCart {
+	 margin-bottom: 0px !important;
+}
+
+#compare  .item .add_to_cart,
+#compare  .item .vto-on-model__shop-now {
+    display: none !important;
+    position: absolute;
+    bottom: 15px;
+    left: 6vw;
+}
+
+#compare  .item .add_to_cart {
+	left: calc(130px + 7vw );
+}
+
+#compare  .item.selected .add_to_cart,
+#compare  .item.selected .vto-on-model__shop-now {
+    display: inline-block !important;
+    margin-left: 20px;
+}
+
+.item.selected .content {
+    padding-bottom: 10px;
+    cursor: auto;
+}
+
+#compare .redesignIcons-delete {
+    display: none !important;
+    background: none !important;
+}
+
+#breadCrumbResults {
+	display: none;
+}
+
+.item p.brand {
+    margin: 25px 0 5px !important;
+}
+
+.vto-not-supported {
+	min-height: 640px;
+	position: relative;
+}
+
+.vto-not-supported_header {
+	position: absolute;
+    text-align: center;
+    top: 50%;
+    color: #999 !important;
+    line-height: 24px;
+    width: 100%;
+    font-size: 18px;
+    text-transform: capitalize !important;
+    z-index: 2;
+    -webkit-transform: translateY(-50%); 
+	-moz-transform: translateY(-50%); 
+	-ms-transform: translateY(-50%);  
+	transform: translateY(-50%);  
+	-webkit-transform-style: preserve-3d; 
+	-moz-transform-style: preserve-3d; 
+	transform-style: preserve-3d;
+}
+
+.description-info {
+	background-color: #F3F2F2;
+}
+
+.description-info h2 {
+	display: block !important;
+	font-size: 24px!important;
+}
+
+.description-info .content,
+.description-info__img {
+	width: 40%;
+	display: inline-block;
+	box-sizing: border-box;
+	vertical-align: middle;
+    text-align: left;
+}
+
+.description-info__att {
+	font-size: 15px;
+	line-height: 26px;
+	list-style-type: none;
+	color: #a1a1a1;
+}
+
+.description-info__att span {
+	color: #111;
+}
+
+
+.description-info__img {
+	width: 59.5%;
+}
+.description-info .content ul,
+.description-info h2 {
+	padding-left: 10vw;
+}
+
+.description-info__att--img {
+	width: 100%;
+	height: inherit;
+}
